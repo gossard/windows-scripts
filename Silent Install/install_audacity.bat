@@ -1,7 +1,7 @@
 @echo off
 
 REM Install Audacity if not already installed.
-REM Supported version: 3.2.2(x64)
+REM Supported version: 3.2.2
 REM author: Florent Gossard
 REM date: 12/12/2022
 
