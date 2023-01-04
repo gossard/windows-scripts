@@ -1,7 +1,7 @@
 @echo off
 
 REM Install VLC if not already installed.
-REM Supported version: 3.0.16(x64)
+REM Supported version: 3.0.16
 REM author: Florent Gossard
 REM date: 12/12/2022
 
