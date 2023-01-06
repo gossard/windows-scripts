@@ -7,8 +7,8 @@
 
 # Change these variables to match your configuration.
 [string]$localExePath = "C:\RasTop\RasTop.exe"
-[string]$sharedExePath = "\\Share$\RasTop\rastop.exe"
-[string]$sharedDllsPath = "\\Share$\RasTop\rastop-dll"
+[string]$sharedExePath = "\\SRV\Share$\RasTop\rastop.exe"
+[string]$sharedDllsPath = "\\SRV\Share$\RasTop\rastop-dll"
 
 Write-Host "Installing RasTop..."
 
