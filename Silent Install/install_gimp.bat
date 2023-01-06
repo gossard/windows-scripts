@@ -7,7 +7,7 @@ REM Date: 12/12/2022
 
 REM Change these variables to match your configuration.
 set localExePath="%PROGRAMFILES%\GIMP 2\bin\gimp-2.10.exe" 
-set sharedExePath="\\Share$\Gimp\gimp.exe"
+set sharedExePath="\\SRV\Share$\Gimp\gimp.exe"
 
 echo Installing Gimp... 
 if not exist %localExePath% %sharedExePath% /VERYSILENT /NORESTART /ALLUSERS
