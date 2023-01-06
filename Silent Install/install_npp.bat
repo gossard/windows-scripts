@@ -7,7 +7,7 @@ REM Date: 12/12/2022
 
 REM Change these variables to match your configuration.
 set localExePath="%PROGRAMFILES%\NotePad++\notepad++.exe"
-set sharedExePath="\\Share$\NotePad++\npp.exe"
+set sharedExePath="\\SRV\Share$\NotePad++\npp.exe"
 
 echo Installing NotePad++... 
 if not exist %localExePath% %sharedExePath% /S
