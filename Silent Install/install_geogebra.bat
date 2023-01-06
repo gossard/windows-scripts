@@ -2,8 +2,8 @@
 
 REM Install GeoGebra if not already installed.
 REM Supported version: 5.0.700.0
-REM author: Florent Gossard
-REM date: 12/12/2022
+REM Author: Florent Gossard
+REM Date: 12/12/2022
 
 REM Change these variables to match your configuration.
 set localExePath="%PROGRAMFILES(X86)%\GeoGebra 5.0\GeoGebra.exe" 
