@@ -7,7 +7,7 @@ REM Date: 12/12/2022
 
 REM Change these variables to match your configuration.
 set localExePath="%PROGRAMFILES(X86)%\GeoGebra 5.0\GeoGebra.exe" 
-set sharedMsiPath="\\Share$\GeoGebra\geogebra.msi"
+set sharedMsiPath="\\SRV\Share$\GeoGebra\geogebra.msi"
 
 echo Installing GeoGebra... 
 if not exist %localExePath% msiexec /i %sharedMsiPath% ALLUSERS=2 /qn
