@@ -6,8 +6,8 @@ REM Author: Florent Gossard
 REM Date: 09/01/2023
 
 REM Change these variables to match your configuration.
-set localExePath="%PROGRAMFILES(X86)%\SalsaJ\SalsaJ.jar"
+set localJarPath="%PROGRAMFILES(X86)%\SalsaJ\SalsaJ.jar"
 set sharedExePath="\\SRV\Share$\SalsaJ\salsaj.exe"
 
 echo Installing SalsaJ...
-if not exist %localExePath% %sharedExePath% /S
+if not exist %localJarPath% %sharedExePath% /S
